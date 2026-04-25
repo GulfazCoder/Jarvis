@@ -1,0 +1,9 @@
+{
+    "device_control": {
+        "confirmation_required": true,
+        "dangerous_commands": ["rm -rf", "format", "del /s"],
+        "log_path": "logs/device_control.log",
+        "max_shell_timeout": 60,
+        "allow_admin_privileges": true
+    }
+}
